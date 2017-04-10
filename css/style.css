@@ -1,0 +1,254 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*header*/
+header{
+    width: 100%;
+    white-space:nowrap;
+}
+
+.left{
+    width:74%;
+    height: 626px;
+    background:#c2c2c2;
+    background-image:url(../img/left.png);
+    background-size:100%;
+    display:inline-block;
+    float: left;
+    z-index: -10;
+}
+.logo{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    width: 15%;
+    height: 8%;
+    z-index: 20;
+}
+.logo_table{
+    width: 40px;
+    height: 40px;
+    margin:2px;
+}
+.logo_table td{
+    background: #c44c4c;
+    padding:3px;
+}
+.logotext{
+    position: absolute;
+    top:18px;
+    left:45px;
+    color: #c44c4c;
+    font-size: 22px;
+}
+.login{
+    position: relative;
+    top:25px;
+    float: right;
+    width:15%;
+    height: 5%;
+    color:silver;
+    padding: 10px;
+    font-size:18px; 
+}
+.search{
+    position: absolute;
+    top:13px;
+    left:80px;
+}
+.basket{
+    position: absolute;
+    top:13px;
+    left:105px;
+}
+/*Инфа для духов JASMIN NOIR*/
+.jasmin_noir{
+    width: 16%;
+    height:23%;
+    position: absolute;
+    top:230px;
+    left:50px; 
+}
+.jasmin_noir_text{
+    font-size: 34px;
+    color:#373737;
+}
+.womens_perfume{
+    font-size: 14px;
+    color:#373737;
+}
+.jasmin_noir_value{
+    font-size: 20px;
+    color:#373737;
+    padding:20px 0 0 0px;
+    font-weight:600; 
+}
+.buy_now{
+    width: 100px;
+    border:2px solid #c76565;
+    border-radius: 25%;
+    margin:20px 0 0 0px;
+    text-align: center;
+    padding: 10px;
+    color:#c76565;
+}
+.jasmin_noir_img{
+    width: 22%;
+    height:35%;
+    position: absolute;
+    top:180px;
+    left:270px; 
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width:26%;
+    height: 626px;
+    background-image: url(../img/right.png);
+    background-size: cover; 
+}
+nav a{
+    margin-top: 40px;
+    width: 50%;
+    text-align: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:active{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:silver;
+}
+a:hover{
+    color:silver;
+}
+
+article{
+    width: 100%;
+    display: block;
+}
+/*Best Seller*/
+.best_seller{
+    width: 100%;
+    height:440px; 
+    background:white;
+    white-space:nowrap;
+    display:flex;
+    position: relative;
+
+
+}
+.best_seller_logo{
+    position: absolute;
+    top:40px;
+    left:100px;
+}
+.best_seller_img{
+    width: 249px;
+    height: 220px;
+    display:inline-flex;
+    margin:90px 40px;
+    background:silver;
+}
+.best_seller_img> img{
+    width: 100%;
+}
+.new_section{
+    width: 100%;
+    height:617px; 
+    background:#ac5e60;
+    display:inline-flex;
+    margin-top:-5px; 
+}
+.women_seller{
+    width: 100%;
+    height:440px; 
+    background:white;
+    display:inline-block;
+    margin-top:-5px; 
+    position: relative;
+}
+.top_seller_img{
+    width: 249px;
+    height: 220px;
+    display:inline-flex;
+    margin-top:150px;
+    margin-left: 15px;
+    background:silver;
+}
+.for_women{
+    position: absolute;
+    top:70px;
+    left:100px;
+}
+.men_seller{
+    width: 100%;
+    height:460px; 
+    background:white;
+    display:inline-block;
+    margin-top:-5px; 
+    position: relative;
+}
+.for_men{
+    position: absolute;
+    top:70px;
+    left:100px;
+}
+.top_seller_men_img{
+    width: 249px;
+    height: 220px;
+    display:inline-flex;
+    margin-top:150px;
+    margin-left: 15px;
+    background:silver;
+}
+.newsletter{
+    width: 100%;
+    height:455px; 
+    background:#eaeaea;
+    display:inline-block;
+    margin-top:-5px; 
+    position: relative;
+}
+.stay_update{
+    position: absolute;
+    top:130px;
+    left:400px;
+    font-size: 35px;
+}
+form{
+    margin-top:200px;
+    margin-left: 500px;
+}
+footer{
+    width: 100%;
+    height:407px; 
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 362px;
+    background:#2b2c30;
+}
+.menu{
+    float: left;
+    width: 15%;
+    height: 250px;
+    margin: 65px;
+    background-color: white;
+}
+.copyright{
+    width: 100%;
+    height: 45px;
+    background:#141518;
+    text-align: center;
+    color:silver;
+    font-size: 15px;
+}
