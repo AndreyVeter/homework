@@ -1,254 +1,338 @@
-*{
+
+body{
+    width: 100%;
     margin:0px;
     padding:0px;
 }
-/*header*/
-header{
-    width: 100%;
-    white-space:nowrap;
-}
 
-.left{
-    width:74%;
-    height: 626px;
-    background:#c2c2c2;
-    background-image:url(../img/left.png);
-    background-size:100%;
-    display:inline-block;
-    float: left;
-    z-index: -10;
+container{
+    width: 100%;
+}
+header{
+    width:100%;
+    height: 690px;
+    background-image: url(../img/background.jpg);
+    background-size: contain;
+}
+.logo-menu{
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
 }
 .logo{
-    position: absolute;
-    top:20px;
-    left: 40px;
-    width: 15%;
-    height: 8%;
-    z-index: 20;
+    float:left;
+    margin: 0px 30px;
+    font-size: 28px;
+    color:white;
 }
-.logo_table{
-    width: 40px;
-    height: 40px;
-    margin:2px;
-}
-.logo_table td{
-    background: #c44c4c;
-    padding:3px;
-}
-.logotext{
-    position: absolute;
-    top:18px;
-    left:45px;
-    color: #c44c4c;
-    font-size: 22px;
-}
-.login{
-    position: relative;
-    top:25px;
-    float: right;
-    width:15%;
-    height: 5%;
-    color:silver;
-    padding: 10px;
-    font-size:18px; 
-}
-.search{
-    position: absolute;
-    top:13px;
-    left:80px;
-}
-.basket{
-    position: absolute;
-    top:13px;
-    left:105px;
-}
-/*Инфа для духов JASMIN NOIR*/
-.jasmin_noir{
-    width: 16%;
-    height:23%;
-    position: absolute;
-    top:230px;
-    left:50px; 
-}
-.jasmin_noir_text{
-    font-size: 34px;
-    color:#373737;
-}
-.womens_perfume{
-    font-size: 14px;
-    color:#373737;
-}
-.jasmin_noir_value{
-    font-size: 20px;
-    color:#373737;
-    padding:20px 0 0 0px;
-    font-weight:600; 
-}
-.buy_now{
-    width: 100px;
-    border:2px solid #c76565;
-    border-radius: 25%;
-    margin:20px 0 0 0px;
-    text-align: center;
-    padding: 10px;
-    color:#c76565;
-}
-.jasmin_noir_img{
-    width: 22%;
-    height:35%;
-    position: absolute;
-    top:180px;
-    left:270px; 
-}
-
 nav{
-    display: flex;
-    flex-wrap: wrap;
-    width:26%;
-    height: 626px;
-    background-image: url(../img/right.png);
-    background-size: cover; 
+    float:left;
+    margin-left: 1000px;
+    margin-top: -60px;
+    padding: 5px;
 }
-nav a{
-    margin-top: 40px;
-    width: 50%;
+nav>a{
+    text-decoration: none;
+    font-size: 14px;
+    color:white;
+    padding: 5px;
+}
+.content{
+    width: 100%;
+    height: 200px;
+    margin-top: 130px;
+    text-align: center;
+    position: relative;
+}
+.your_next_product{
+    font-size: 35px;
+    line-height:0.5px;
+    color:white;
+}
+.signup_now{
+    font-size:18px;
+    color:white;
+    line-height:0.5px
+}
+.btn_copy{
+    position: absolute;
+    top:90px;
+    left:600px;
+    width: 250px;
+    background-color:#fed45c;
+    border-radius: 50px; 
+    font-size: 14px; 
+    text-transform: uppercase;
+}
+.btn_copy>a{
+    text-decoration: none;
+    color:black;
+}
+.intro{
+    width: 100%;
+    height: 820px;
+    background-color:white;
+    margin-top: -8px;
+    position: relative;
+}
+.content_intro{
+    width: 480px;
+    height: 310px;
+    float:left;
+    margin-left:240px;
+    margin-top: 130px;
+}
+.img_bg{
+    width: 500px;
+    height: 250px;
+    float:left;
+    margin-left:40px;
+    margin-top: 130px;
+    background-color:#d0d0d0; 
+}
+
+/*Шрифт в content_intro*/
+
+.we_help{
+    font-size: 14px;
+    color:#a2a2a2;
+    text-transform: uppercase;
+}
+.grow_next{
+    font-size: 35px;
+    line-height:0;
+}
+.heres_why{
+    font-size: 18px;
+    color:#a2a2a2;
+}
+.what_do{
+    font-size: 14px;
+    color:#a2a2a2;
+}
+button{
+    width: 180px;
+    height: 50px;
+    background-color: #fed45c;
+    border-radius: 50px;
+    border:0px;
+}
+button>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+}
+
+.testimonaisl{
+    width: 645px;
+    height:180px;
+    position: absolute;
+    bottom:80px;
+    left:350px;
     text-align: center;
 }
-a{
-    color:white;
-    text-decoration: none;
+
+.why_over{
+    font-size: 13px;
+    text-transform: uppercase;
+    color:#555555;
 }
-a:active{
-    color:white;
-    text-decoration: none;
+.what_do_all{
+    font-size: 20px;
+    color:#a2a2a2;
 }
-a:visited{
-    color:silver;
-}
-a:hover{
-    color:silver;
+.tim{
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
-article{
+.services{
     width: 100%;
-    display: block;
+    height: 300px;
+    background-color: #fcfcfc;
+    border-top:1px solid #eeeeee;
 }
-/*Best Seller*/
-.best_seller{
+.pixel_perfect{
+    width:300px;
+    height: 300px;
+    float:left;
+    margin-left: 200px;
+    background-color: gray;
+}
+.seo{
+    width:300px;
+    height: 300px;
+    float:left;
+    margin-left: 40px;
+    background-color: gray;
+}
+.dedicated_support{
+    width:300px;
+    height: 300px;
+    float:left;
+    margin-left: 40px;
+    background-color: gray;
+}
+.counters{
     width: 100%;
-    height:440px; 
-    background:white;
-    white-space:nowrap;
-    display:flex;
-    position: relative;
+    height: 310px;
+    background-image: url(../img/background2.jpg);
+    background-size: contain;
+}
+.mac_img{
+    width: 300px;
+    height: 250px;
+    float:left;
+    margin-left: 360px;
+    margin-top: 35px;
+    background-color: white; 
+}
+.content_counters{
+    width: 300px;
+    height: 200px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 35px;
+    background-color: white; 
+}
 
+/*latest_products*/
 
-}
-.best_seller_logo{
-    position: absolute;
-    top:40px;
-    left:100px;
-}
-.best_seller_img{
-    width: 249px;
-    height: 220px;
-    display:inline-flex;
-    margin:90px 40px;
-    background:silver;
-}
-.best_seller_img> img{
+.latest_products{
     width: 100%;
+    height:750px; 
 }
-.new_section{
-    width: 100%;
-    height:617px; 
-    background:#ac5e60;
-    display:inline-flex;
-    margin-top:-5px; 
+.latest_products_caption{
+    width: 30%;
+    height:90px;
+    margin-left:35%;
+    margin-top:12%;
+    text-align: center;
+    line-height:0;
 }
-.women_seller{
-    width: 100%;
-    height:440px; 
-    background:white;
-    display:inline-block;
-    margin-top:-5px; 
-    position: relative;
-}
-.top_seller_img{
-    width: 249px;
-    height: 220px;
-    display:inline-flex;
-    margin-top:150px;
-    margin-left: 15px;
-    background:silver;
-}
-.for_women{
-    position: absolute;
-    top:70px;
-    left:100px;
-}
-.men_seller{
-    width: 100%;
-    height:460px; 
-    background:white;
-    display:inline-block;
-    margin-top:-5px; 
-    position: relative;
-}
-.for_men{
-    position: absolute;
-    top:70px;
-    left:100px;
-}
-.top_seller_men_img{
-    width: 249px;
-    height: 220px;
-    display:inline-flex;
-    margin-top:150px;
-    margin-left: 15px;
-    background:silver;
-}
-.newsletter{
-    width: 100%;
-    height:455px; 
-    background:#eaeaea;
-    display:inline-block;
-    margin-top:-5px; 
-    position: relative;
-}
-.stay_update{
-    position: absolute;
-    top:130px;
-    left:400px;
+
+/*Шрифт*/
+
+.latest{
     font-size: 35px;
+    color:black;
 }
-form{
-    margin-top:200px;
-    margin-left: 500px;
+.your_next{
+    font-size: 16px;
+    color:#838383;
+}
+
+.content_latest{
+    width: 35%;
+    height: 52%;
+    float:left;
+    margin-left:200px;
+    margin-top: 50px;
+}
+.content_latest>a{
+    text-decoration: none;
+    color:#838383;
+    line-height:3;
+}
+.vanilla{
+    font-size: 24px;
+    color:black;
+    text-transform: uppercase;
+}
+.what_doall{
+    font-size: 14px;
+    color:#838383;
+    line-height:1.7;
+}
+.last_update{
+    font-size: 12px;
+    color:#838383;
+    text-transform: uppercase;
+    line-height:2.5;
+}
+.browser_mockup{
+    width: 597px;
+    height: 441px;
+    background-image: url(../img/okno.png);
+    float:left;
+    margin-left:10px;
+    margin-top:30px;
+    background-size: contain;
+}
+.demo{
+    background: white;
+    width: 150px;
+    border:1px solid #838383;
+}
+
+.news{
+    width: 100%;
+    height:890px;
+    background-color: #f6f6f6; 
+}
+.request{
+    width:375px;
+    height:535px;
+    float:left;
+    margin-left:200px;
+    margin-top:160px;
+    background-color: green;
+}
+.company_new{
+    width:575px;
+    height:300px;
+    float:left;
+    margin-left:40px;
+    margin-top:160px;
+    background-color: green;
+}
+.faq{
+    width:575px;
+    height:250px;
+    float:right;
+    margin-right:233px;
+    margin-top: 30px;
+    background-color: green;
+}
+.help_support{
+    width: 100%;
+    height: 566px;
+}
+.help_support_caption{
+    width:380px;
+    height:100px;
+    margin-left:35%;
+    margin-top:6%;
+    text-align: center;
+}
+.support{
+    width: 300px;
+    height: 300px;
+    float:left;
+    margin-left:200px;
+    margin-top:50px;
+    background-color: black;
+}
+.documentation{
+    width: 300px;
+    height: 300px;
+    float:left;
+    margin-left:50px;
+    margin-top:50px;
+    background-color: black;
+}
+.tutorials{
+    width: 300px;
+    height: 300px;
+    float:left;
+    margin-left:50px;
+    margin-top:50px;
+    background-color: black;
 }
 footer{
     width: 100%;
-    height:407px; 
-}
-.contacts{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 362px;
-    background:#2b2c30;
-}
-.menu{
-    float: left;
-    width: 15%;
-    height: 250px;
-    margin: 65px;
-    background-color: white;
-}
-.copyright{
-    width: 100%;
-    height: 45px;
-    background:#141518;
-    text-align: center;
-    color:silver;
-    font-size: 15px;
+    height: 280px;
+    background-image: url(../img/footer.png);
+     background-size: cover;
 }
