@@ -1,19 +1,49 @@
+@font-face{
+ font-family:"Open Sans";
+ src:url(../css/open-sans.ttf);
+}
+@font-face{
+ font-family:"Oswald";
+ src:url(../css/oswald-light.ttf);
+}
+@font-face{
+ font-family:"Roboto-Regular";
+ src:url(../css/roboto-regular.ttf);
+}
+@font-face{
+ font-family:"Roboto-Light";
+ src:url(../css/roboto-light.ttf);
+}
+@font-face{
+ font-family:"Poppins Light";
+ src:url(../css/Poppins-Light.ttf);
+}
+@font-face{
+ font-family:"Roboto";
+ src:url(../css/roboto-bold.ttf);
+}
+
 body{
-    max-width: 1300px;
+    max-width: 1500px;
 	min-width: 768px;
     margin: 0 auto;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-container{
-    max-width: 1300px;
+.container{
+    max-width: 1500px;
 	min-width: 768px;
     margin: 0 auto;
 }
 header{
     width:100%;
     height: 690px;
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+    background:url(../img/background.jpg) no-repeat;
+    background-size:cover; 
     position: relative;
 }
 .logo-menu{
@@ -23,17 +53,22 @@ header{
 }
 .logo{
     float:left;
-    margin: 0px 30px;
+    margin: 20px 30px;
+}
+.logo>a{
+    text-decoration: none;
     font-size: 28px;
+    font-family:"Oswald";
     color:white;
 }
 nav{
     float:right;
     text-align: right;
-    width: 70%;
+    width: 44%;
+    font-family:"Roboto";
     text-transform: uppercase;
     margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 4%;
 }
 nav>a{
     font-size: 14px;
@@ -49,15 +84,35 @@ nav>a{
     text-align: center;
     position: relative;
 }
+.message{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    top:-15%;
+    left:17%;
+    border-radius: 5px;
+}
+.message2{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+     position: relative;
+    top:-21%;
+    left:20%; 
+}
 .your_next_product{
     font-size: 35px;
     line-height:5px;
     color:white;
+    font-family:"Roboto-Regular";
 }
 .signup_now{
     font-size:18px;
     color:white;
-    line-height:5px
+    line-height:5px;
+    font-family:"Roboto-Regular";
 }
 .btn_copy{
     width: 250px;
@@ -66,6 +121,7 @@ nav>a{
     border-radius: 50px; 
     font-size: 14px; 
     text-transform: uppercase;
+    font-family:"Poppins Light";
     padding: 1px;
 }
 .btn_copy>a{
@@ -73,44 +129,82 @@ nav>a{
     color:black;
 }
 .aside{
-    width: 70%;
+    min-width: 60%;
     height: 22%;
     position: absolute;
-    left: 17%;
+    left: 21%;
     bottom: -85px;
-    z-index: 500000;
+    font-family:"Open Sans";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    z-index: 500;
 }
 .laravel{
     width:16%;
     height:100%;
-    float:left;
+    display: inline-block;
+    vertical-align: top;
     box-shadow: 0 0 5px silver;
     border-radius:5px;
     background: white;
+    position: relative; 
 }
-.text-aside{
-    width: 100%;
-    height: 20%;
-    text-align: center;
-    font-size: 13px;
-    text-transform: uppercase;
-    margin:20px auto;
+.text-laravel> p::before{
+    content: "";
+    background: url("../img/sprites.png") no-repeat -120px -5px;
+    width: 70px;
+	height: 51px;
+    position: absolute;
+    top:44%;
+    left: 21%;
 }
-.img-aside{
-    width: 60%;
-    height: 45%;
-    margin-left:20%;
-    margin-top: -1%;
-    text-align: center;
+.text-wordpress> p::before{
+    content: "";
+    background: url("../img/sprites.png") no-repeat -135px -283px;
+    width: 63px;
+	height: 64px;
+    position: absolute;
+    top:43%;
+    left: 27%;
+}
+.text-angularjs> p::before{
+    content: "";
+    background: url("../img/sprites.png") no-repeat -129px -377px;
+    width: 76px;
+	height: 76px;
+    position: absolute;
+    top:38%;
+    left: 23%;
+}
+.text-nodejs> p::before{
+    content: "";
+    background: url("../img/sprites.png") no-repeat -135px -94px;
+    width: 52px;
+	height: 57px;
+    position: absolute;
+    top:45%;
+    left: 31%;
+}
+.text-ionic> p::before{
+    content: "";
+    background: url("../img/sprites.png") no-repeat -133px -176px;
+    width: 62px;
+	height: 62px;
+    position: absolute;
+    top:45%;
+    left: 27%;
 }
 .aside_box{
     width:16%;
     height:100%;
-    float:left;
-    margin-left: 3%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; 
     box-shadow: 0 0 3px silver;
     border-radius:5px;
     background: white;
+    position: relative;
 }
 
 .intro{
@@ -146,18 +240,22 @@ nav>a{
     font-size: 14px;
     color:#a2a2a2;
     text-transform: uppercase;
+    font-family:"Poppins Light";
     line-height:0;
 }
 .grow_next{
     font-size: 35px;
+    font-family:"Roboto-Regular";
     line-height:0.9;
 }
 .heres_why{
     font-size: 18px;
     color:#a2a2a2;
+    font-family:"Roboto-Regular";
 }
 .what_do{
     font-size: 14px;
+    font-family:"Open Sans";
     color:#a2a2a2;
 }
 button{
@@ -166,9 +264,11 @@ button{
     background-color: #fed45c;
     border-radius: 50px;
     border:0px;
+    cursor: pointer;
 }
 button>a{
     text-transform: uppercase;
+    font-family:"Poppins Light";
     text-decoration: none;
     color:black;
     font-size: 12px;
@@ -185,14 +285,27 @@ button>a{
 .why_over{
     font-size: 13px;
     text-transform: uppercase;
+    font-family:"Poppins Light";
     color:#555555;
+    position: relative;
+}
+.why_over:before{
+    content:"";
+    background: url("../img/sprites.png") no-repeat  -579px -286px;
+    width: 38px;
+	height: 33px;
+    position: absolute;
+    left: 47%;
+    top:-45px;
 }
 .what_do_all{
     font-size: 20px;
+    font-family:"Roboto-Regular";
     color:#a2a2a2;
 }
 .tim{
     font-size: 13px;
+    font-family:"Roboto-Regular";
     text-transform: uppercase;
 }
 
@@ -201,46 +314,105 @@ button>a{
     height: 300px;
     background-color: #fcfcfc;
     border-top:1px solid #eeeeee;
+    font-size: 0;
 }
 .pixel_perfect{
     width:25%;
     height: 60%;
-    float:left;
-    margin-left: 8%;
+    display: inline-block;
+    margin-left: 9%;
     margin-top:50px;
     text-align: center;
+    position: relative;
+}
+.pix_per{
+    font-family:"Roboto-Light";
+    font-size: 18px;
+}
+.pix_per::before{
+    content:"";
+    background: url("../img/sprites.png") no-repeat -578px -193px;
+    width: 40px;
+	height: 58px;
+    position: absolute;
+    left: 42%;
+    top:-45px;
+}
+.services_text2{
+    font-size: 14px;
+    font-family:"Open Sans";
+    color:#777777;
 }
 .seo{
     width:25%;
     height: 60%;
-    float:left;
+    display: inline-block;
     margin-left: 40px;
     margin-top:50px;
     text-align: center;
+    font-family:"Roboto-Light";
+    position: relative;
+}
+.seo_o{
+    font-family:"Roboto-Light";
+    font-size: 18px;
+}
+.seo_o::before{
+    content:"";
+    background: url("../img/sprites.png") no-repeat -571px -106px;
+    width: 59px;
+	height: 58px;
+    position: absolute;
+    left: 41%;
+    top:-45px;
 }
 .dedicated_support{
     width:25%;
     height: 60%;
-    float:left;
+    display: inline-block;
     margin-left: 40px;
-    margin-top:50px;
+    margin-top:90px;
     text-align: center;
+    font-family:"Roboto-Light";
+    position: relative;
+}
+.dedi_supp{
+    font-family:"Roboto-Light";
+    font-size: 18px;
+}
+.dedi_supp::before{
+    content:"";
+    background: url("../img/sprites.png") no-repeat -571px -17px;
+   width: 58px;
+	height: 51px;
+    position: absolute;
+    left: 41%;
+    top:-35px;
 }
 .counters{
     width: 100%;
-    height: 310px;
-    background-image: url(../img/background2.png);
-    background-size: cover;
+    min-height: 310px;
+    background-image: url("../img/background2.png");
+    background-size: 100%;
+}
+.Mac{
+    width:20%;
+    height: 200px;
+    float: left; 
+    margin-top:4%;
+    margin-left: 24%;  
 }
 .content_counters{
     width: 40%;
     height: 200px;
     float:left;
-    margin-left: 53%;
-    margin-top: 40px;
+    margin-left: 6%;
+    margin-top: 4%;
+    font-family:"Roboto-Regular";
 }
 .some_statistical{
     font-size: 35px;
+    font-family:"Roboto-Light";
     color:white;
 }
 .text_content{
@@ -293,11 +465,12 @@ button>a{
     height:750px; 
 }
 .latest_products_caption{
-    width: 30%;
+    width: 33%;
     height:90px;
     margin-left:35%;
     margin-top:12%;
     text-align: center;
+    font-family:"Roboto-Light";
     line-height:0;
 }
 
@@ -310,6 +483,7 @@ button>a{
 .your_next{
     font-size: 16px;
     color:#838383;
+    font-family:"Open Sans";
     line-height:1;
 }
 
@@ -323,29 +497,38 @@ button>a{
 .content_latest>a{
     text-decoration: none;
     color:#838383;
+    font-family:"Roboto-Regular";
     line-height:3;
+}
+.content_latest>a:hover{
+    color:#f0689e;
+    text-decoration: underline;
 }
 .vanilla{
     font-size: 24px;
     color:black;
     text-transform: uppercase;
+    font-family:"Roboto-Regular";
 }
 .what_doall{
     font-size: 14px;
     color:#838383;
     line-height:1.7;
+    font-family:"Open Sans";
 }
 .last_update{
     font-size: 12px;
     color:#838383;
     text-transform: uppercase;
     line-height:2.5;
+    font-family:"Open Sans";
 }
 .browser_mockup{
     width: 47%;
     height: 441px;
     background-image: url(../img/okno.png);
     background-repeat:no-repeat;
+    font-family:"Open Sans";
     float:left;
     margin-left:10px;
     margin-top:30px;
@@ -355,21 +538,25 @@ button>a{
     background: white;
     width: 30%;
     border:1px solid #838383;
+    font-family:"Poppins Light";
+    cursor: pointer;
 }
 
 .news{
     width: 100%;
     height:890px;
-    background-color: #f6f6f6; 
+    background-color: #f6f6f6;
+    font-family:"Roboto-Light"; 
 }
 .request{
     width:29%;
     height:535px;
     float:left;
     margin-left:3%;
-    margin-top:160px;
+    margin-top:100px;
     box-shadow: 0 0 50px #e5e5e5;
     background-color: white;
+    font-family:"Roboto-Light";
 }
 .content_request{
     width: 80%;
@@ -381,6 +568,7 @@ button>a{
 }
 .request_call2{
     font-size: 14px;
+    font-family:"Open Sans";
 }
 form{
     margin-left:30px;
@@ -388,10 +576,12 @@ form{
 }
 input{
     width: 85%;
-    height: 60px;
+    height: 40px;
+    font-family:"Open Sans";
 }
 .type_text{
     font-size: 14px;
+    padding: 8px;
 }
 .btn{
     border-radius: 50px;
@@ -399,6 +589,7 @@ input{
     background-color: #fed45c;
     text-transform: uppercase;
     font-size: 14px;
+    font-family:"Poppins Light";
 }
 
 .company_new{
@@ -406,7 +597,7 @@ input{
     height:400px;
     float:left;
     margin-left:3%;
-    margin-top:120px;
+    margin-top:70px;
 }
 .subtitle{
     font-size: 30px;
@@ -418,7 +609,8 @@ input{
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 0 50px #e5e5e5;
-    background-color:#d0d0d0; 
+    background-color:#d0d0d0;
+    font-family:"Roboto-Regular"; 
 }
 .box1-1{
     width:100%;
@@ -450,6 +642,7 @@ input{
     border-radius: 5px;
     box-shadow: 0 0 50px #e5e5e5;
     background-color:#d0d0d0;
+    font-family:"Roboto-Regular";
 }
 .box2-1{
     width:100%;
@@ -470,8 +663,16 @@ input{
     width: 100%;
     height: 41px;
     border-bottom: 1px solid silver;
+}
+.row_t{
     font-size: 17px;
     color:#959595;
+}
+.row_t::after{ /*не вставляется*/
+    content:"";
+    background: url("../img/sprites.png") no-repeat -688px -21px;
+    width: 26px;
+	height: 26px;
 }
 .row2{
     width: 100%;
@@ -490,35 +691,42 @@ input{
 .help_support{
     width: 100%;
     height: 566px;
+    font-family:"Roboto-Light";
 }
 .help_support_caption{
     width:30%;
     height:100px;
-    margin-left:35%;
+    margin-left:36%;
     margin-top:6%;
     text-align: center;
+    font-size: 35px;
+    line-height:1;
 }
-.support{
+.subtitle_help{
+    font-size: 16px;
+    font-family:"Open Sans";
+    color:#777777;
+    line-height:1;
+}
+.first-box{
     width: 22%;
     height: 300px;
     float:left;
-    margin-left:11%;
+    margin-left:14%;
     margin-top:50px;
     text-align: center;
     font-size: 16px;
+    font-family:"Roboto-Light";
+    color:#777777;  
 }
-.supporttext{
+
+.subtitle_text{
     text-transform: uppercase;
     font-size: 15px;
+    font-family:"Open Sans";
+    color:black 
 }
-.doctext{
-    text-transform: uppercase;
-    font-size: 15px;
-}
-.tutorialstext{
-   text-transform: uppercase; 
-   font-size: 15px;
-}
+
 .btn_support{
     background-color: white;
     border:1px solid silver;
@@ -531,6 +739,8 @@ input{
     margin-top:50px;
     text-align: center;
     font-size: 16px;
+    font-family:"Roboto-Light";
+    color:#777777;
 }
 .tutorials{
     width: 22%;
@@ -540,6 +750,8 @@ input{
     margin-top:50px;
     text-align: center;
     font-size: 16px;
+    font-family:"Roboto-Light";
+    color:#777777;
 }
 .btn_tutorials{
     background-color: white;
@@ -549,7 +761,7 @@ footer{
     width: 100%;
     height: 240px;
     background-image: url(../img/footer.png);
-     background-size: cover;
+    background-size: cover;
 }
 .links{
     width: 35%;
@@ -559,11 +771,33 @@ footer{
     margin-top: 30px;
     text-align: center;
 }
-.link1{
-    float: left;
-    margin-left:20%;
+.links>p{
+    padding-top: 30px;
+    color:#9ea0a4;
 }
 .link{
     float: left;
     margin-left: 5px;
+}
+.link1{
+    float: left;
+    margin-left:30%;
+    background: url("../img/sprites.png") no-repeat -17px -144px;
+    width: 41px;
+	height: 41px;
+}
+.link2{
+    background: url("../img/sprites.png") no-repeat -16px -209px;
+    width: 41px;
+	height: 41px;
+}
+.link3{
+    background: url("../img/sprites.png") no-repeat -14px -7px;
+    width: 41px;
+	height: 41px;
+}
+.link4{
+    background: url("../img/sprites.png") no-repeat -16px -79px;
+    width: 41px;
+	height: 41px;
 }

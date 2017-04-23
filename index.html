@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Домашняя работа 18</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body> 
     <container>
         <header>
             <section class="logo-menu">
-                <div class="logo"><p>uisumo</p></div>
+                <div class="logo"><a href="#666">uisumo</a></div>
                 <nav>
                     <a href="#1">about us</a>
                     <a href="#1">products</a>
@@ -25,27 +26,24 @@
                 <div class="btn_copy">
                     <a href="#2"><p>get me membership for free</p></a>
                 </div>
+                <div class="message"></div>
+                <div class="message2"></div>
             </div>
             <div class="aside">
                 <div class="laravel">
-                    <div class="text-aside">laravel</div>
-                    <div class="img-aside"><img src="img/laravel.png" width="90%"></div>
+                    <div class="text-laravel"><p>laravel</p></div>
                 </div>
                 <div class="aside_box">
-                    <div class="text-aside">wordpress</div>
-                    <div class="img-aside"><img src="img/wordpress.png" width="70%"></div>
+                    <div class="text-wordpress"><p>wordpress</p></div>
                 </div>
                 <div class="aside_box">
-                    <div class="text-aside">angularjs</div>
-                    <div class="img-aside"><img src="img/three.png" width="80%"></div>
+                    <div class="text-angularjs"><p>angularjs</p></div>
                 </div>
                  <div class="aside_box">
-                    <div class="text-aside">node js</div>
-                    <div class="img-aside"><img src="img/js.png" width="70%"></div>
+                    <div class="text-nodejs"><p>node js</p></div>
                 </div>
                 <div class="aside_box">
-                    <div class="text-aside">ionic</div>
-                    <div class="img-aside"><img src="img/ionic.png" width="70%"></div>
+                    <div class="text-ionic"><p>ionic</p></div>
                 </div>
             </div>
         </header>
@@ -66,7 +64,6 @@
            </div>
 
            <div class="testimonaisl">
-                <img src="img/Vector-Smart-Object.png">
                 <p class="why_over">why over 50k people choose us</p>
                 <p class="what_do_all">“What do all consultants need? In short, trust. This is achieved with professional presentation and the ability
                     to communicate clearly with existing and potential trendy worldwide clients way of tired now & all."
@@ -76,29 +73,27 @@
        </section>
        <section class="services">
             <div class="pixel_perfect">
-                <img src="img/Icon1.png">
-                <p>Pixel Perfect Design</p>
-                <p>This is achieved with professional presentation and the ability communicate
+                <p class="pix_per">Pixel Perfect Design</p>
+                <p class="services_text2">This is achieved with professional presentation and the ability communicate
                     clearly with existing and potential clients.
                 </p>
             </div>
             <div class="seo">
-                <img src="img/Icon2.png">
-                <p>SEO Optimized</p>
-                <p>This is achieved with professional presentation and the ability communicate clearly with
+                <p class="seo_o">SEO Optimized</p>
+                <p class="services_text2">This is achieved with professional presentation and the ability communicate clearly with
                     existing and potential clients.
                 </p>
             </div>
             <div class="dedicated_support">
-                <img src="img/Icon3.png">
-                <p>Dedicated Support</p>
-                <p>This is achieved with professional presentation and the ability communicate clearly with existing and potential
+                <p class="dedi_supp">Dedicated Support</p>
+                <p class="services_text2">This is achieved with professional presentation and the ability communicate clearly with existing and potential
                     clients.
                 </p>
             </div>
        </section>
 
-       <section class="counters">
+       <section class="counters clearfix">
+           <div class="Mac"><img src="img/Mockup@2x.png" width="100%"></div>
             <div class="content_counters">
                 <p class="some_statistical">Some Statistical Facts</p>
                 <div class="text_content">
@@ -179,31 +174,31 @@
             </div>
             <div class="faq">
                 <p>Frequently Asked Question?</p>
-                <div class="row1"><p>Is there any auto-renew subscription? <img src="img/circle.png"></p></div>
-                <div class="row2"><p>Can I upgrade to Theme Club form a ThemeForest purchase?<img src="img/circle.png"></p></div>
-                <div class="row3"><p>How many sites can I use my themes on?<img src="img/circle.png"></p></div>
+                <div class="row1"><p class="row_t">Is there any auto-renew subscription?</p></div>
+                <div class="row2"><p>Can I upgrade to Theme Club form a ThemeForest purchase?</p></div>
+                <div class="row3"><p>How many sites can I use my themes on?</p></div>
             </div>
        </section>
        <section class="help_support">
            <div class="help_support_caption">
                <p>Help & Support</p>
-               <p>Find answer to all of your questions here.</p>
+               <p class="subtitle_help">Find answer to all of your questions here.</p>
            </div>
-           <div class="support">
+           <div class="first-box">
                <img src="img/inoc4@2x.png" width="71px" height="71px">
-               <p class="supporttext">support</p>
+               <p class="subtitle_text">support</p>
                <p>Contact our experts and solve your problems immediatyly</p>
                <button class="btn_support">FORUM</button>
            </div>
            <div class="documentation">
                <img src="img/icon5@2x.png" width="71px" height="71px">
-               <p class="doctext">documentation</p>
+               <p class="subtitle_text">documentation</p>
                <p>Learn how to use Theme from our Users Guide</p>
                <button class="btn_docimentation">LEARN MORE</button>
            </div>
            <div class="tutorials">
                <img src="img/icon6@2x.png" width="71px" height="71px">
-               <p class="tutorialstext">tutorials</p>
+               <p class="subtitle_text">tutorials</p>
                <p>Learn how to use Products with video tutorials</p>
                <button class="btn_tutorials">WATCH NOW</button>
            </div>
@@ -211,10 +206,10 @@
 
        <footer>
            <div class="links">
-                <div class="link1"><img src="img/facebook.png"></div>
-                <div class="link"><img src="img/facebook.png"></div>
-                <div class="link"><img src="img/facebook.png"></div>
-                <div class="link"><img src="img/facebook.png"></div>
+                <div class="link1 "></div>
+                <div class="link2 link"></div>
+                <div class="link3 link"></div>
+                <div class="link4 link"></div>
                 <br><br>
                 <p>2017 UISUMO Web Solutions. All Rights Reserved.</p>
            </div>
