@@ -1,0 +1,334 @@
+..icon-basket, ..icon-bookmark, ..icon-check-off, ..icon-check-on, ..icon-circle, ..icon-circle-dot, ..icon-down-dir1, ..icon-down-dir2, ..icon-facebook-copy, ..icon-home, ..icon-instagramm-copy, ..icon-left, ..icon-login, ..icon-login1, ..icon-phone, ..icon-right, ..icon-right-mini, ..icon-search, ..icon-search2, ..icon-up-dir1, ..icon-up-dir2, ..icon-up-dir3, ..icon-user, ..icon-user1, ..icon-vk-copy, .Shape-2 copy 4, .Shape-2 copy 5, .sort-indicator copy 3, .AEG, .bosch, .DeWALT, .Hitachi, .LG, .Makita, .Metabo, .item-1, .Layer-92, .Layer-95, .Layer-96, .Layer-100, .Layer-101, .slider-1, .slider-2, .Интерскол, .Слой-5, .technomart-index, .guarantee, .credit, .btn-copy 14, .Layer-118, .technomart-index2, .snippet-945-copy 2, .snippet-3000-copy 3, .snippet-18927-copy 2, .snippet-32961-copy 3{
+	background: url(sprites.png) no-repeat;
+}
+
+..icon-basket{
+	background-position: -14px -19px ;
+	width: 17px;
+	height: 16px;
+}
+
+..icon-bookmark{
+	background-position: -68px -20px ;
+	width: 14px;
+	height: 16px;
+}
+
+..icon-check-off{
+	background-position: -112px -17px ;
+	width: 23px;
+	height: 23px;
+}
+
+..icon-check-on{
+	background-position: -162px -18px ;
+	width: 27px;
+	height: 23px;
+}
+
+..icon-circle{
+	background-position: -209px -16px ;
+	width: 25px;
+	height: 25px;
+}
+
+..icon-circle-dot{
+	background-position: -259px -16px ;
+	width: 25px;
+	height: 25px;
+}
+
+..icon-down-dir1{
+	background-position: -316px -23px ;
+	width: 11px;
+	height: 10px;
+}
+
+..icon-down-dir2{
+	background-position: -369px -27px ;
+	width: 11px;
+	height: 10px;
+}
+
+..icon-facebook-copy{
+	background-position: -418px -20px ;
+	width: 10px;
+	height: 18px;
+}
+
+..icon-home{
+	background-position: -414px -24px ;
+	width: 15px;
+	height: 12px;
+}
+
+..icon-instagramm-copy{
+	background-position: -461px -21px ;
+	width: 17px;
+	height: 17px;
+}
+
+..icon-left{
+	background-position: -513px -5px ;
+	width: 22px;
+	height: 40px;
+}
+
+..icon-login{
+	background-position: -567px -21px ;
+	width: 20px;
+	height: 17px;
+}
+
+..icon-login1{
+	background-position: -614px -19px ;
+	width: 20px;
+	height: 17px;
+}
+
+..icon-phone{
+	background-position: -662px -20px ;
+	width: 19px;
+	height: 19px;
+}
+
+..icon-right{
+	background-position: -714px -6px ;
+	width: 22px;
+	height: 40px;
+}
+
+..icon-right-mini{
+	background-position: -768px -25px ;
+	width: 8px;
+	height: 12px;
+}
+
+..icon-search{
+	background-position: -812px -21px ;
+	width: 17px;
+	height: 17px;
+}
+
+..icon-search2{
+	background-position: -866px -20px ;
+	width: 17px;
+	height: 17px;
+}
+
+..icon-up-dir1{
+	background-position: -920px -21px ;
+	width: 11px;
+	height: 10px;
+}
+
+..icon-up-dir2{
+	background-position: -968px -24px ;
+	width: 11px;
+	height: 10px;
+}
+
+..icon-up-dir3{
+	background-position: -1014px -25px ;
+	width: 11px;
+	height: 10px;
+}
+
+..icon-user{
+	background-position: -1064px -16px ;
+	width: 20px;
+	height: 18px;
+}
+
+..icon-user1{
+	background-position: -1117px -17px ;
+	width: 20px;
+	height: 18px;
+}
+
+..icon-vk-copy{
+	background-position: -1162px -25px ;
+	width: 20px;
+	height: 12px;
+}
+
+.Shape-2 copy 4{
+	background-position: -1221px -10px ;
+	width: 41px;
+	height: 42px;
+}
+
+.Shape-2 copy 5{
+	background-position: -1281px -7px ;
+	width: 41px;
+	height: 42px;
+}
+
+.sort-indicator copy 3{
+	background-position: -1374px -28px ;
+	width: 9px;
+	height: 9px;
+}
+
+.AEG{
+	background-position: -27px -67px ;
+	width: 151px;
+	height: 96px;
+}
+
+.bosch{
+	background-position: -31px -185px ;
+	width: 126px;
+	height: 37px;
+}
+
+.DeWALT{
+	background-position: -214px -71px ;
+	width: 146px;
+	height: 44px;
+}
+
+.Hitachi{
+	background-position: -197px -159px ;
+	width: 169px;
+	height: 31px;
+}
+
+.LG{
+	background-position: -395px -61px ;
+	width: 121px;
+	height: 73px;
+}
+
+.Makita{
+	background-position: -385px -158px ;
+	width: 123px;
+	height: 40px;
+}
+
+.Metabo{
+	background-position: -545px -66px ;
+	width: 204px;
+	height: 69px;
+}
+
+.item-1{
+	background-position: -11px -244px ;
+	width: 299px;
+	height: 123px;
+}
+
+.Layer-92{
+	background-position: -345px -240px ;
+	width: 44px;
+	height: 65px;
+}
+
+.Layer-95{
+	background-position: -413px -246px ;
+	width: 78px;
+	height: 62px;
+}
+
+.Layer-96{
+	background-position: -332px -328px ;
+	width: 75px;
+	height: 61px;
+}
+
+.Layer-100{
+	background-position: -428px -324px ;
+	width: 59px;
+	height: 72px;
+}
+
+.Layer-101{
+	background-position: -518px -246px ;
+	width: 78px;
+	height: 63px;
+}
+
+.slider-1{
+	background-position: -21px -445px ;
+	width: 620px;
+	height: 266px;
+}
+
+.slider-2{
+	background-position: -672px -448px ;
+	width: 620px;
+	height: 266px;
+}
+
+.Интерскол{
+	background-position: -770.9999847412109px -67px ;
+	width: 200px;
+	height: 88px;
+}
+
+.Слой-5{
+	background-position: -23px -735px ;
+	width: 300px;
+	height: 158px;
+}
+
+.technomart-index{
+	background-position: -1520px -28px ;
+	width: 477px;
+	height: 333px;
+}
+
+.guarantee{
+	background-position: -1584px -414px ;
+	width: 389px;
+	height: 283px;
+}
+
+.credit{
+	background-position: -1528px -770px ;
+	width: 465px;
+	height: 285px;
+}
+
+.btn-copy 14{
+	background-position: -378px -754px ;
+	width: 141px;
+	height: 38px;
+}
+
+.Layer-118{
+	background-position: -1372px -454px ;
+	width: 10px;
+	height: 272px;
+}
+
+.technomart-index2{
+	background-position: -602px -746px ;
+	width: 220px;
+	height: 318px;
+}
+
+.snippet-945-copy 2{
+	background-position: -878px -756px ;
+	width: 144px;
+	height: 128px;
+}
+
+.snippet-3000-copy 3{
+	background-position: -1082px -762px ;
+	width: 127px;
+	height: 112px;
+}
+
+.snippet-18927-copy 2{
+	background-position: -896px -920px ;
+	width: 127px;
+	height: 112px;
+}
+
+.snippet-32961-copy 3{
+	background-position: -1100px -914px ;
+	width: 184px;
+	height: 164px;
+}
+
